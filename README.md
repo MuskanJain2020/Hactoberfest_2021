@@ -56,7 +56,7 @@ If this command give message like git remote already exist then run this command
 git remote set-url origin <The url of forked github repository>
 It is critical to keep your forked repository in sync the upstream repository so merge conflicts can be avoided:
 
-git remote add upstream https://github.com/ShivamYadav-Coding/hacktoberfest-2021.git
+git remote add upstream
 git fetch upstream
 git pull upstream main
 Create a seperate branch to work on:
